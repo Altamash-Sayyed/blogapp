@@ -1,0 +1,48 @@
+
+Task: Build a Simple Blog Application
+Objective: Create a simple blog application where users can register, log in, create, read, update, and delete blog posts.
+
+Requirements:
+User Authentication:
+Implement user registration and login using Laravel's built-in authentication system.
+Ensure proper validation and error handling.
+
+Blog Posts:
+Authenticated users can create, read, update, and delete blog posts.
+Each post should have a title, content, and a timestamp for when it was created and last updated.
+Validate the input data (e.g., title should be required and have a maximum length, content should be required).
+User Interface:
+
+Use Laravel Blade templates to create the views.
+Include basic styling (CSS) for a user-friendly interface.
+Provide navigation links for easy access (e.g., Home, Create Post, My Posts, Logout).
+
+Database:
+Use Laravel migrations to create the necessary database tables.
+
+Routing:
+Define appropriate routes for the application (e.g., web.php).
+Implement route protection to ensure only authenticated users can create, update, or delete posts.
+
+Validation and Error Handling:
+Implement server-side validation for all forms.
+Display appropriate error messages to the user.
+
+Code Quality:
+Follow best practices for code organization and readability.
+Include comments where necessary to explain complex logic.
+
+Bonus (optional but a plus):
+Add a feature for users to leave comments on posts.
+Use Laravel’s Eloquent ORM relationships (e.g., User hasMany Posts, Post hasMany Comments).
+
+Evaluation Criteria:
+Functionality: Ensure the application meets all the specified requirements.
+Code Quality: Evaluate the readability, organization, and comments in the code.
+
+Validation: Check for proper validation and error handling.
+UI/UX: Assess the user interface and overall user experience.
+Database Design: Review the database schema and use of migrations.
+Security: Ensure that user authentication and route protection are properly implemented.
+
+Instructions for Candidates:
